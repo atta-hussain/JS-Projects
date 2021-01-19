@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-image: url(./countdown.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    margin: 0%;
+}
+
+h1 {
+   font-size : 8rem;
+   font-weight: bold;
+}
+
+.countdown_el {
+text-align: center;
+}
+
+.big-text {
+    font-size: 10rem;
+    font-weight: bold;
+}

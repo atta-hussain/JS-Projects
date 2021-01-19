@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Add Quiz</title>
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+            rel="stylesheet">
+
+    </head>
+    <body class="box-border flex flex-col items-center justify-center h-screen px-5 font-sans bg-gray-500">
+        <div class="w-full md:w-1/2 lg:w-1/3">
+
+            <form>
+                <div id="add_quiz" class="text-gray-800 bg-gray-300 quiz-container rounded-xl">
+                    <div class="px-3 py-4 text-center">
+                        <h2 id="question" class="mb-3 font-bold text-gray-600 uppercase">Add Mutliple Choice Question</h2>
+                        <input type="text" id="fname" class="w-full p-2 ml-1 rounded-3xl focus:outline-none" name="firstname"
+                            placeholder="Enter Question...">
+                    </div>
+                    <ul class="px-3 py-4 ">
+                        <li>
+                            <label id="new_text" for="a"> </label> <br>
+                            <input type="text" id="a" name="answer"
+                                class="w-full p-2 ml-1 answer rounded-3xl focus:outline-none" placeholder="Enter Option A...">
+
+                        </li>
+                        <li>
+                            <label id="new_text" for="b"> </label> <br>
+                            <input type="text" id="b" name="answer"
+                                class="w-full p-2 ml-1 answer rounded-3xl focus:outline-none" placeholder="Enter Option B...">
+
+                        </li>
+                        <li>
+                            <label id="new_text" for="c"> </label> <br>
+                            <input type="text" id="c" name="answer"
+                                class="w-full p-2 ml-1 answer rounded-3xl focus:outline-none" placeholder="Enter Option C...">
+                        </li>
+                        <li>
+                            <label id="new_text" for="d"> </label> <br>
+                            <input type="text" id="d" name="answer"
+                                class="w-full p-2 ml-1 answer rounded-3xl focus:outline-none" placeholder="Enter Option D...">
+                        </li>
+                    </ul>
+                    <div class="flex">
+                        <button id="submit" class="w-1/2 py-3 font-semibold text-gray-200 bg-blue-500 border-r-2 border-gray-200 rounded-bl-xl focus:outline-none hover:bg-blue-700">Submit</button>
+                        <a class="w-1/2" href="./add_quiz.html"><button
+                                id="submit" class="w-full py-3 font-semibold text-gray-200 bg-blue-500 rounded-br-xl focus:outline-none hover:bg-blue-700">More</button></a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
